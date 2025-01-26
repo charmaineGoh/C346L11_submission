@@ -34,7 +34,7 @@ const RegisterScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Image
-                source={require('./assets/olivia.jpg')} // Replace this with your image path
+                source={require('./assets/olivia.jpg')} 
                 style={styles.image}
             />
             <Text style={styles.header}>Register to join the contest now</Text>
